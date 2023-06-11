@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+HELP.md
+backend/ws/carbits/target/
+
+backend/ws/carbits/!.mvn/wrapper/maven-wrapper.jar
+
+backend/ws/carbits/!**/src/main/**/target/
+
+backend/ws/carbits/!**/src/test/**/target/
+
+### STS ###
+
+backend/ws/carbits/.apt_generated
+
+backend/ws/carbits/.classpath
+
+backend/ws/carbits/.factorypath
+
+backend/ws/carbits/.project
+
+backend/ws/carbits/.settings
+
+backend/ws/carbits/.springBeans
+
+backend/ws/carbits/.sts4-cache
+
+backend/ws/.metadata
