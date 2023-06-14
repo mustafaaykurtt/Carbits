@@ -1,0 +1,12 @@
+spring:
+
+  datasource:
+    generate-unique-name: false
+
+    
+  jpa:
+    properties:
+      jakarta:
+        persistence:
+          validation:
+            mode: none
